@@ -1,0 +1,17 @@
+// Colors
+$primary__strong-cyan: hsl(171, 66%, 44%);
+$primary__light-blue: hsl(233, 100%, 69%);
+
+$neutral__dark-grayish-blue: hsl(210, 10%, 33%);
+$neutral__grayish-blue: hsl(201, 11%, 66%);
+
+// Device sizes
+$media__sm: (
+  min-width: 375px,
+);
+$media__md: (
+  min-width: 700px,
+);
+$media__lg: (
+  min-width: 1224px,
+);
