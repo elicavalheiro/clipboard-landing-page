@@ -1,0 +1,26 @@
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+
+  &__primary-green {
+    background-color: hsl(171, 66%, 44%);
+
+    &:hover {
+      filter: brightness(1.1);
+      box-shadow: 0 0 15px hsl(171, 66%, 44%), inset 0 -4px hsl(171, 68%, 40%);
+    }
+  }
+
+  &__secondary-blue {
+    background-color: hsl(233, 100%, 69%);
+
+    &:hover {
+      filter: brightness(1.1);
+      box-shadow: 0 0 15px hsl(233, 100%, 69%), inset 0 -4px hsl(233, 80%, 63%);
+    }
+  }
+}
